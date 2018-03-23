@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    /* border:1px solid red; */
+    font-family: 'VT323', monospace;
+    font-size: 1.1rem;
+}
+
+.search-box{
+    text-align:center;
+}
+.search{
+    font-size: 3rem;
+    border:none;
+    /* border-bottom: 2px solid black; */
+    padding:10px;
+    background:none;
+    text-align: center;
+}
+
+.btn{
+   width:50px;
+   opacity: 0.2; 
+}
+
+.btn:hover{
+    opacity: 0.5; 
+    cursor:pointer;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-m {
+    margin:10px;
+}
+
+/* html{
+    background:url("http://www.nintendoworldreport.com/media/39453/4/18.jpg");
+    opacity: 0.1; 
+} */
+
+.amiibo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding :50px;
+    flex-wrap: wrap;
+
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+.amiibo-info {
+    margin-left:40px;
+}
+
+td{
+    padding:30px;
+    margin-right:10px;
+}
+th{
+    border-bottom: 1px solid black;
+    padding:10px;
+}
+html{
+    background:url("../images/bg.png"); 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-head{
+    margin-top:40px;
+    text-align: center;
+}
+
+.logo{
+    width:50%;
+}
